@@ -1,0 +1,31 @@
+# Este arquivo é um exemplo de comandos READ/WRITE para acesso à memória.
+# Comentários são permitidos em linhas começando com "//".
+# Formato das linhas:
+#    READ <OPCIONAL: bin/hex/oct> <endereço virtual ou random>
+#    WRITE <OPCIONAL: bin/hex/oct> <endereço virtual ou random>
+# Exemplo:
+# READ hex FF    # pagina 0
+
+READ hex 80000 # read 0
+
+READ hex 4000 # read 1
+
+READ hex 8000 # read 2
+
+READ hex 84000 # read 3
+
+READ hex 10000 # read 4
+
+READ hex 14000 # read 5 
+
+READ hex C000 # read 6
+
+READ hex 0 # read 7
+
+READ hex FC000 # read 8
+
+READ hex 24000 # read 9
+
+
+
+
